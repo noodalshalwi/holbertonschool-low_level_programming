@@ -29,4 +29,5 @@ int _atoi(char *s);
 int _strcmp(char *s1, char *s2);
 unsigned int _strspn(char *s, char *accept);
 void print_chessboard(char (*a)[8]);
+void print_diagsums(int *a, int size);
 #endif

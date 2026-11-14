@@ -2,6 +2,9 @@
 int main(void)
 {
 int choice;
+int A;
+int B;
+int result;
 do
 {
 printf("Simple Calculator\n");
@@ -20,6 +23,15 @@ if (choice == 0)
 else if (choice < 0 || choice > 4)
 {
     printf("Invalid choice\n");
+}
+else if (choice == 1)
+{
+    printf("A: ");
+    scanf("%d", &A);
+    printf("B: ");
+    scanf("%d", &B);
+    result = A + B;
+    printf("Result: %d\n\n", result);
 }
 }
 while (choice != 0);

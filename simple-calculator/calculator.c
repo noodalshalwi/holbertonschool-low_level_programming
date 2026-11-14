@@ -42,6 +42,15 @@ else if (choice == 2)
     result = A - B;
     printf("Result: %d\n\n", result);
 }
+else if (choice == 3)
+{
+printf("A: ");
+    scanf("%d", &A);
+    printf("B: ");
+    scanf("%d" , &B);
+    result = A * B;
+    printf("Result: %d\n\n", result);
+}
 }
 while (choice != 0);
 return (0);

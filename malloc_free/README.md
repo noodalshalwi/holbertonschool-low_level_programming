@@ -13,4 +13,5 @@ This project is about dynamic memory allocation in C using malloc and free.
 | File | Description |
 |------|-------------|
 | 0-create_array.c | Creates an array of chars and initializes it with a specific character |
+| 1-strdup.c | Duplicates a string using dynamic memory allocation |
 | main.h | Contains function prototypes |

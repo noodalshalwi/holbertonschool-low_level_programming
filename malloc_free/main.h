@@ -8,3 +8,4 @@ char *_strdup(char *str);
 
 
 #endif
+char *str_concat(char *s1, char *s2);
